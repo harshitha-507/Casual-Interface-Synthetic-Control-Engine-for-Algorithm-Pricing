@@ -1,0 +1,3 @@
+Region,Pre_Treatment_RMSE,Post_Treatment_RMSE,Pre_Treatment_Correlation,Pre_Treatment_Mean_Difference
+North Metro,603.6,657.94,0.105,413.74
+West Metro,620.75,524.14,0.074,382.1
