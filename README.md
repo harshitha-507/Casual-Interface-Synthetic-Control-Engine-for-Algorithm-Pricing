@@ -1,2 +1,19 @@
 # Casual-Interface-Synthetic-Control-Engine-for-Algorithm-Pricing
-A team project focused on casual interface and synthetic control methods for algorithm pricing analysis.
+## Week 4 – Causal Inference Validation
+
+- Estimated propensity scores using logistic regression.
+- Identified common support observations.
+- Performed 1:1 nearest-neighbor matching.
+- Evaluated covariate balance using standardized mean differences.
+- Estimated the matched average treatment effect (ATE).
+- Calculated cluster-adjusted uncertainty.
+- Compared regional revenue differences.
+
+### Key Findings
+- Matched observations: 3,578
+- Treated observations: 1,789
+- Control observations: 1,789
+- Matched ATE: 0.9514
+- Cluster-adjusted 95% CI: -6.4851 to 8.3878
+
+The confidence interval includes zero, so the analysis does not establish a statistically significant overall revenue improvement.
