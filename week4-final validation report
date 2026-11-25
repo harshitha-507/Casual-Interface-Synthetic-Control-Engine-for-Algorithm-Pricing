@@ -1,0 +1,23 @@
+# Week 4 – Final Validation Report
+
+## Analysis Completed
+- Propensity score estimation
+- Common support analysis
+- Nearest-neighbor matching
+- Covariate balance assessment
+- Matched ATE estimation
+- Cluster-adjusted uncertainty analysis
+- Regional revenue comparison
+
+## Final Results
+- Original dataset: 25,249 observations
+- Common support: 19,726 observations
+- Matched dataset: 3,578 observations
+- Matched ATE: 0.9514
+- Cluster-adjusted SE: 3.7914
+- 95% Confidence Interval: [-6.4851, 8.3878]
+
+## Conclusion
+The measured covariates achieved good balance after matching. However, the confidence interval includes zero, so the analysis does not establish a statistically significant overall revenue improvement.
+
+Only two regions had treated observations. Further robustness checks and careful region-level analysis are needed.
